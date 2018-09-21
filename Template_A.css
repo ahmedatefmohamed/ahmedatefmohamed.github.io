@@ -1,0 +1,370 @@
+/**@charset "UTF-8";**/
+body
+{
+    font-family: Tahoma;
+    margin: 0;
+}
+.content
+{
+    width: 1200px;
+    margin: auto;
+}
+.header
+{
+    text-decoration: none;
+    opacity: 1;
+    width: 100%;
+    height: 70px;
+    /*background-color: #000;
+    position: fixed;
+    top: -100px;*/
+    transition: all 0.8s;
+}
+.headerEffect
+{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    transition: all 0.8s;
+}
+.header .logo
+{
+    float: left; 
+}
+.header .logo h3
+{
+    color: #00FF00;
+    margin: 0;
+    padding-top:  5px;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.header .logo h3 sub
+{
+    text-transform: none;
+    font-size: 15px;
+    color:#FFF ;#CCF
+}
+.header .logo h3 sub:hover
+{
+    color: #F0F;
+}
+.header.nav
+{
+    float: right;
+}
+.header .nav ul li
+{
+    float: right;
+    padding: 20px;   
+    list-style-type: none; 
+}
+.header .nav ul li a
+{
+    font-size: 18px;
+    color: #FFF;
+}
+.header .nav ul li a:hover
+{
+    color: #AFC;
+}
+.clear
+{
+    clear: both
+}
+.about
+{
+    background-image: url("aa.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 543px;
+}
+.about .cont
+{
+    margin: 0;
+    padding-top: 100px;
+    font-size: 35px;
+    text-align: center;
+    color:#FFF;
+    font-family: Traditional Arabic ;
+}
+.about button
+{
+    border: 0;
+    margin-top: 139px;
+    border-radius: 20px;
+    margin-left: 580px;
+    background: #F4A460;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px #222;
+}
+.about button:hover
+{
+    /**text-decoration: underline;**/
+    /*text-transform: uppercase;*/
+    color: green;
+    font-family: monospace;
+    transition: all 0.8s;
+    transform: translateY(15%);
+}
+.articles
+{
+    color: #00FF00;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+    background-color: #000;
+}
+
+.block
+{
+    width: 100%;
+    height: 1484px;
+    background: #FFF;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.block .part img
+{
+    /**width: 339px;**/
+    width: 100%;
+    height: 190px;
+}
+.block .part
+{
+    width: 31%;
+    float: left;
+    margin-left: 21px;
+    margin-bottom: 2%;
+    border-top-style: double ;
+    box-shadow: 5px 15px 10px #AFF,
+}
+.block .part:hover
+{
+    /*transform: translateY(1%);*/
+    transition: all 0.8s;
+}
+.block .part :first-child , .block .par:nth-child(4)
+{
+    margin-left: 0;
+}
+.block .part p
+{
+    text-align: center;
+    padding: 25px;
+    line-height: 1.7;
+    margin: 0;
+    color: #000;
+    background: #FFF;
+    padding-top: 40px
+    
+}
+.block .part button
+{
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 50px auto;
+    background: #ED3;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 15px 10px 5px #EC2;
+}
+.block .part button:hover
+{
+    word-spacing: 5px;
+    box-shadow: 15px 10px 5px #E22;
+}
+
+.block .part p.border
+{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-style: double  ;
+    border-bottom-color: #F00;
+}
+.block .divA,.divB
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 80px
+}
+.block .divA h2,img
+{
+    display: inline;
+}
+.block .divB h2,img
+{
+    display: inline;
+}
+.block .divA,.divB p,p
+{
+    color: rgb(250,20,100);
+}
+.clear
+{
+    clear: both;
+}
+.contact 
+{
+    width: 100%;
+    margin: 0;
+    height: 350px;
+    background: #111;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px
+    
+}
+.contact h2 
+{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #FFF
+}
+.contact h5 
+{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+    color: #00FF00
+}
+.mauris
+{
+    width: 800px;
+    margin: auto; 
+}
+form
+{
+    text-align: center;
+    width: 480px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-left: 20px;
+}
+form input
+{
+    width: 309px;
+    height: 37px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+form textarea
+{
+    margin-top: -155px;
+    margin-left: 417px;
+}
+/*form button
+{
+    margin-left: 290px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: #CCA;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+}*/
+/*input
+{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    outline: 0;
+}
+textarea
+{
+    width: 50px;
+    border-radius: 10px;
+    outline: 0;
+     padding-left: 10px;
+}*/
+.bp
+{
+    background: none;
+    width: 209px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 0px;
+    border :1px solid ;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.bp:hover
+{
+    border-color: blue;
+    font-size: 15px;
+    text-shadow: 5px 5px 5px #000;
+}
+.footer p
+{
+    text-align: center;
+    color: #FFFF00;
+}
+.survay h2,.btn
+{
+    display: inline;
+}
+.survay h2,button
+{
+    margin-top:30px;    
+}
+/*.survay
+{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    position: absolute;
+    top: 90%;
+}
+.survay h2
+{
+    color: #FFF;
+    margin-left: 100px;
+    font-family: sans-serif;     
+}
+.btn
+{
+     margin-left: 200px;
+}
+.btn button
+{
+    width: 192px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.survay .btn .b1:hover
+{
+    background-color: #FFF;
+    color: #000
+
+}
+.survay .btn .b2:hover
+{
+    background-color: #696969;
+    color: #FFF;
+}*/
